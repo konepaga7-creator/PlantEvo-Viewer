@@ -1,0 +1,48 @@
+*{
+margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+}
+
+header.header img{
+width : 278px;
+height :88px; 
+}
+
+
+.top_page{
+background-color: #226D68;
+  display: flex;
+  width: 100%;
+  
+  align-items: center;
+  padding: 10px 20px;
+}
+    
+
+
+.nav{
+display: grid;
+ grid-template-columns:repeat(3,auto);
+ gap: 10px;
+ margin-left:auto
+ 
+}
+
+ul{
+    display:flex;
+    flex-direction:column
+}
+
+ul div{
+    display: flex;
+    gap: 50px
+}
+
+li{
+    list-style: none;
+    
+}
